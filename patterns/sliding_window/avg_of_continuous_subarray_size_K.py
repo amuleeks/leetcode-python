@@ -1,5 +1,8 @@
 #Given an array, find the average of all continuous subarrays of size 'K' in it
 
+# Example:
+# arr = [1, 3, 2, 6, -1, 4, 1, 8, 2], K = 5
+
 #the brute force approach is the following
 
 def avg_of_subarrays(K, arr):
