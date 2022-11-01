@@ -21,11 +21,11 @@ def binary_search(sorted_list, target):
     
     return False
 
-def generate_sorted_list(length_of_list):
+def generate_sorted_list(last_num):
     res = []
-    for i in range(1, length_of_list + 1):
+    for i in range(1, last_num + 1):
         res.append(i)
-    print(res)
+        
     return res
 
 
