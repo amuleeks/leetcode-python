@@ -1,7 +1,5 @@
 # only works on sorted lists 
 # checks if target number if exists in list and returns true, false otherwise
-from operator import truediv
-
 
 def binary_search(sorted_list, target):
     smallest, largest = 0, len(sorted_list) - 1
@@ -25,7 +23,7 @@ def generate_sorted_list(last_num):
     res = []
     for i in range(1, last_num + 1):
         res.append(i)
-        
+
     return res
 
 
